@@ -5,16 +5,22 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-export default function Couture() {
+import Carde from "../../composants/Cards/Carde";
+import data from "../../data/dataCards";
+import Footer from "../../composants/Footer/Footer";
+export default function Couture({ img, titre ,nbr }) {
+
+
   return (
-    <div className="container bg">
+    <div className=" bg">
       <Container>
         <h3 className="mt-4 touts">tous les items</h3>
         <p className="atelier"> 
           Nos Ateliers de <span> Couture</span>
         </p>
         <Row className="">
-          <Col className=" bg-col m-1 " sm={4}>
+          
+          <Col className=" bg-col m- "  sm={3}>
             <div className="cont-col">
               <div className="souss ">Filtre</div>
               <h5 className="p-2 m-2 filtre">filtre par</h5>
@@ -221,10 +227,34 @@ export default function Couture() {
             </div>
             </div>
             </div>
+          </Col> 
+          <Col className=" " sm={8}>
+            <div className="col-cont-card mt-4 ">
+
+          
+           
+            <Container  className=" d-flex  dwrap " >
+             
+            { data.map((item, index) => (
+              <Carde
+                key={index}
+                img={item.img}
+                titre={item.titre}
+                nbr={item.nbr}
+              />
+            ))}
+            
+            
+            </Container>
+           
+           
+           </div>
           </Col>
-          <Col className=" border " sm={8}></Col>
+          
         </Row>
+       
       </Container>
+      <Footer/>
     </div>
   );
 }

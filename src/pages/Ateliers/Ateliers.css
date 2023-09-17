@@ -1,0 +1,26 @@
+
+.accordion-item {
+    border: 0;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius:  none !important; 
+     border-top-right-radius: none !important; 
+     color: aliceblue !important;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+.accordion-button:focus {
+    /* z-index: 3; */
+    border-color: whitesmoke !important; 
+     outline: 0 !important; 
+    box-shadow: 0 !important;
+}
+.accordion-button:hover {
+    z-index: 2;
+}
+.accordion-button:not(.collapsed) {
+     color:  white !important; 
+      background-color:none !important ; 
+    box-shadow:  none !important; 
+}

@@ -23,7 +23,7 @@ export default function Ateliers() {
           Nos Ateliers de <span> Couture</span>
         </p>
         <Row className="">
-          <Col className=" bg-col  " sm={3}>
+          <Col className=" bg-col   col-style " sm={3}>
             <div className="cont-col">
               <div className="souss ">Filtre</div>
               <h5 className="p-2 m-2 filtre">filtre par</h5>

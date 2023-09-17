@@ -24,3 +24,6 @@ button:focus:not(:focus-visible) {
       background-color:none !important ; 
     box-shadow:  none !important; 
 }
+.col-style{
+    background-color: #FFF;
+}

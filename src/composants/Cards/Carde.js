@@ -11,7 +11,7 @@ export default function Carde({ img, titre ,nbr }) {
 <>
 <section className="card  ">
 <Link to="/couture/ateliers-info">
-           <div className='card-img border' >
+           <div className='card-img -' >
         <img src={img} width='220rem' alt="titre" className="" />
         </div>
    </Link>     <div className="  cont-card-text ">

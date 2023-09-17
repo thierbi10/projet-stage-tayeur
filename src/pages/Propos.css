@@ -1,0 +1,72 @@
+.propos  {
+    margin-top:     3%;
+    padding-top: 4rem ;
+margin-bottom: 3%;
+font-size: 24px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.propos  span{
+    
+font-size: 24px;
+font-weight: 200;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.comtainer-img{
+    
+    width: 100%;
+height: 661.667px;
+flex-shrink: 0;
+}
+.comtainer-img img{
+width: 100%;
+height: 74vh;
+padding: 0;
+margin: 0;
+}
+.comtainer-text{
+    background-color: #FFF;
+    
+width: 100%;
+height: 74vh;
+padding: 12%;
+margin: 0;
+}
+.sommes{
+    color: #414141;
+font-feature-settings: 'liga' off;
+/* font-family: Montserrat; */
+font-size: 53.333px;
+font-style: normal;
+font-weight: 800;
+line-height: 72px; /* 135% */
+}
+.text-cont01{
+    color: #414141;
+/* font-family: Montserrat; */
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 166.667% */
+letter-spacing: -0.36px;
+}
+.btn-propos{
+    margin-top: 1rem;
+    color: #E72D32;
+font-feature-settings: 'liga' off;
+background-color: transparent;
+border: none;
+/* Label / Large Label */
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+}

@@ -12,12 +12,13 @@ export default function Navbars() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary bg-nav fixed-top">
       <Container fluid-fluid>
-        <Navbar.Brand href="#">
+        <div className="div-gene"></div>
+        <Navbar.Brand className="navigae" href="#">
           <img className="logo" src={logo} alt="" srcset="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav className="me-auto my-2 my-lg-0 nav">
+          <Nav className="me-auto d-flex  my-2 my-lg-0 nav">
             <Nav.Item>
               <Link to="/" className="page">
                 Accueil

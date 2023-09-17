@@ -1,0 +1,41 @@
+.container-imsc{
+    width: 100%;
+}
+.myflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.icon-card1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #ffff;
+    flex-shrink: 0;
+    background-color:#E83538;  
+    margin: 5px;
+}
+.icon-card01 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #ffff;
+    flex-shrink: 0;
+    background-color:#1DD03F;  
+    margin: 5px;
+}
+.icon-card-1 {
+    font-size: 2rem;
+    color: aliceblue;
+    position: absolute;
+}
+.marg {
+    margin: 0 18%;
+}
+.center01{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

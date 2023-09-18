@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import CarrouselDark from '../../composants/CarrouselDark/CarrouselDark'
 import Card from "react-bootstrap/Card";
 import Carde from "../../composants/Cards/Carde";
 import data from "../../data/dataCards";
@@ -254,6 +255,8 @@ export default function Couture({ img, titre ,nbr }) {
         </Row>
        
       </Container>
+      <CarrouselDark/> 
+
       <Footer/>
     </div>
   );

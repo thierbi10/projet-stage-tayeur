@@ -55,9 +55,9 @@ export default function () {
       <div className="img-fond">
         <img src={imgfont} alt="" />
       </div>
-      <div className="sec-recherche">
+      {/* <div className="sec-recherche">
         <img src={banier} alt="" />
-        </div>
+        </div> */}
 
     </div>
   );

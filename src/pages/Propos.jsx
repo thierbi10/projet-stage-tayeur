@@ -4,6 +4,7 @@ import ndiaga from "../asset/ndiaga (1).png";
 import ndiaga1 from "../asset/ndiaga (3).png";
 import ndiaga2 from "../asset/ndiaga (2).png";
 import oeil from "../asset/oeil.png";
+import CarrousselDark from '../composants/CarrouselDark/CarrouselDark'
 import Footer from "../composants/Footer/Footer";
 
 export default function Propos() {
@@ -93,6 +94,7 @@ export default function Propos() {
           </div>
         </div>
       </div>
+       <CarrousselDark/>
       <Footer />
     </div>
   );

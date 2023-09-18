@@ -407,6 +407,7 @@ export default function InfoAtelier() {
             </Col>
           </Row>
         </Container>
+         <CarrouselDark/> 
                 {/* <CarrouselDark/> */}
         {/* <section className="temoignage">
         <div className="absolu-con">

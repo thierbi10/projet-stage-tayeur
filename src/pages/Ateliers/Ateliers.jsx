@@ -8,6 +8,7 @@ import Col from "react-bootstrap/Col";
 import CardAteliers from "../../composants/Cards/CardAteliers";
 import Accordion from 'react-bootstrap/Accordion';
 import Footer from "../../composants/Footer/Footer";
+import MyPagination from "../../composants/Pagination";
 
 export default function Ateliers() {
   return (
@@ -20,7 +21,7 @@ export default function Ateliers() {
           Nos Ateliers de <span> Couture</span>
         </p>
         <Row className="">
-          <Col className=" bg-col   col-style " sm={3}>
+          <Col className=" bg-col border   col-style " sm={3}>
             <div className="cont-col">
               <div className="souss ">Filtre</div>
               <h5 className="p-2 m-2 filtre">filtre par</h5>
@@ -305,6 +306,10 @@ export default function Ateliers() {
                 <CardAteliers />
                 <CardAteliers />
                 <CardAteliers />
+       <div className="center">
+
+                <MyPagination/>
+       </div>
                 {/* { data.map((item, index) => (
               <Carde
                 key={index}

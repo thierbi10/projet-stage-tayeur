@@ -4,10 +4,7 @@ import Container from "react-bootstrap/Container";
 import Navbars from "../../composants/Navbars/Navbars";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import Carde from "../../composants/Cards/Carde";
-import data from "../../data/dataCards";
+
 import CardAteliers from "../../composants/Cards/CardAteliers";
 import Accordion from 'react-bootstrap/Accordion';
 import Footer from "../../composants/Footer/Footer";

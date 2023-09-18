@@ -29,13 +29,7 @@ function App() {
              <Route  path="/contact" element = {<Contact/>}/>
 
           </Routes>
-
-
-        {/* <InfoAtelier/>
-       <Carrousel/>
-       <Couture/>
-       <Footer/>  */}
-       {/* <Ateliers/>  */}
+        
     </div>
   );
 }

@@ -39,15 +39,34 @@
    width: 6rem;
 
 }
-.nav .page{
-    /* font-family: Montserrat; */
-    font-size: 21px;
+  /* font-family: Montserrat; */
+    .page{
+  color: var(--Dark, #072125);
+    margin :12px ;
+    font-size: 21.333px;
+    text-decoration: none;
+    font-style: normal;
     font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: left;
-    
+    line-height: 150%; /* 32px */
 }
+.page:hover{
+    color: #E72D32;
+      margin :12px ;
+      font-size: 21.333px;
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 32px */
+  }
+  .page:focus{
+    color: #E72D32;
+    margin :12px ;
+    font-size: 21.333px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 32px */
+  }
 .bg-body-tertiary {
     background-color: #FFFFFF !important;
     box-shadow: 0px 5.333333492279053px 5.333333492279053px 0px #00000040;

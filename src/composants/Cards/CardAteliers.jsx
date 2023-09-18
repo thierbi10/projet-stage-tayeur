@@ -1,6 +1,8 @@
 import React from "react";
 import femme from "../../asset/rtm_RTMHC078.jpeg";
 import logohc from '../../asset/hc.png'
+import { Link } from 'react-router-dom';
+
 import "./Card.css";
 import {TfiHeart}  from  'react-icons/tfi'
 import {HiOutlineShare} from 'react-icons/hi2'
@@ -9,13 +11,17 @@ export default function CardAteliers() {
   return (
     <div className="mycard">
       <div className="img-group">
+        <Link to ='/produit/info-produit'>
       <div className="container-ims">
         <img   src={femme}  alt="" />
       </div>
        <div className="cont-logo-hc">
         <img src={logohc} alt="" />
+        
        </div>
+       </Link>
        </div>
+       
        <div>
         <div  container-atelier-text>
           <div className="con-check d-flex justify-content-between  align-items-center taille ">

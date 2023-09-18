@@ -32,6 +32,7 @@ import Container from "react-bootstrap/Container";
 import ButtonCrusto from "../../composants/ButtonCrusto";
 import CrustomCard from "../../composants/CrustomCard";
 import MyPagination from "../../composants/Pagination";
+import CarrouselDark from "../../composants/CarrouselDark/CarrouselDark";
 export default function InfoAtelier() {
   return (
     <div className="container-info-atelier ">
@@ -406,6 +407,7 @@ export default function InfoAtelier() {
             </Col>
           </Row>
         </Container>
+                {/* <CarrouselDark/> */}
         {/* <section className="temoignage">
         <div className="absolu-con">
             <div className="cont-cards">

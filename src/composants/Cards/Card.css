@@ -19,8 +19,8 @@
   
   .card-img {
     /* width: 14rem; */
-    border:  solid 2px red;
-    height: 8rem;
+    
+    height: 9rem;
     
     display: flex;
     justify-content: center;
@@ -118,7 +118,7 @@ color: #505050;
   }
   .container-ims{
    width: 100%;
-    max-width: 24rem;
+    max-width: 26rem;
     /* border: 2px solid  black; */
 
   }

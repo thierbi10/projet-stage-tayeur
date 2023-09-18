@@ -5,15 +5,16 @@ import { AiFillStar } from 'react-icons/ai';
 import { BiLogoWhatsappSquare } from 'react-icons/bi';
 import { FaPhoneSquareAlt} from 'react-icons/fa';
 import {LuMessagesSquare } from 'react-icons/lu';
-
+import { Link } from "react-router-dom";
 export default function Carde({ img, titre ,nbr }) {
   return (
 <>
 <section className="card  ">
-           <div className='card-img border' >
+<Link to="/couture/ateliers-info">
+           <div className='card-img -' >
         <img src={img} width='220rem' alt="titre" className="" />
         </div>
-        <div className="  cont-card-text ">
+   </Link>     <div className="  cont-card-text ">
           <h3  className="card-title font2 mt"> {titre}</h3>
           <section className="card-reviews d-flex justify-content-between align-items-center a ">
            <div className='font'> {nbr}</div>

@@ -20,7 +20,7 @@ button:focus:not(:focus-visible) {
     z-index: 2;
 }
 .accordion-button:not(.collapsed) {
-     color:  white !important; 
-      background-color:none !important ; 
-    box-shadow:  none !important; 
+        color:  white !important; 
+        background-color:none !important ; 
+        box-shadow:  none !important; 
 }

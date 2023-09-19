@@ -47,8 +47,8 @@ export default function Navbars() {
           </Nav>
 
           <Form className="d-flex">
-            <Button>DEVENIR PARTENAIRE</Button>
-            <Button className="btn1 ">S’IDENTIFIER</Button>
+            <button className="bnt-cristo" >DEVENIR PARTENAIRE</button>
+            <button className="btn1 ">S’IDENTIFIER</button>
           </Form>
         </Navbar.Collapse>
       </Container>

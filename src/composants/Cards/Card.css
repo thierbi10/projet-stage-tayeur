@@ -11,7 +11,7 @@
     
     padding: 20px;
     cursor: pointer;
-    width: 22rem;
+    
   }
   .card-details{
     margin-top: 2rem;
@@ -98,9 +98,10 @@ color: #505050;
     margin: -10px; /* Ajustez la marge extérieure pour l'espacement entre les cartes */
   }
   
+  
   .card {
     flex: 0 0 calc(33.33% - 20px); /* 33.33% pour 3 colonnes avec marge de 10px entre les cartes */
-    margin: 10px; /* Espacement entre les cartes */
+  /* Espacement entre les cartes */
     /* Autres styles de carte ici */
   }
   /****************csrd atelier*****************************/
@@ -118,7 +119,7 @@ color: #505050;
   }
   .container-ims{
    width: 100%;
-    max-width: 26rem;
+    max-width: 270px;
     /* border: 2px solid  black; */
 
   }

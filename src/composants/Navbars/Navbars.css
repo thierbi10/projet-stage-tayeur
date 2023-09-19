@@ -23,13 +23,27 @@
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #E72D32 !important;
 }
+.bnt-cristo{
+  color: #FFF;
+text-align: center;
+font-family: Arial;
+font-size: 18.667px;
+font-style: normal;
+font-weight: 400;
+line-height: 18.667px; /* 100% */
+text-transform: uppercase;
+border-radius: 66.667px;
+background: #E72D32;
+border: none;
+}
 .btn1{
     background-color: transparent !important;
     color: #E72D32 !important;
     margin-left: 2px;
     outline: #E72D32 !important;
     border: #E72D32 2px solid !important;
-    
+    border-radius: 66.667px;
+    border: 1.333px solid #E72D32;
 }
 .nav{
     

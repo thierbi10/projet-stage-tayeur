@@ -24,3 +24,50 @@ button:focus:not(:focus-visible) {
         background-color:none !important ; 
         box-shadow:  none !important; 
 }
+.center-end{
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: end;
+    margin-right: 2rem;
+   
+}
+  
+  
+  
+.dropdown-basic-button{
+    background-color: #fff !important;
+}
+.btn-primary {
+    color: #505050 !important;
+text-align: right;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.2px; /* 120% */
+    --bs-btn-color: #fff;
+    --bs-btn-bg: none !important;
+    --bs-btn-border-color: #E72D3 !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg:none !important;
+}
+.btn-primary {
+  
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: none !important;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button {
+    border-radius: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}

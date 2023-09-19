@@ -1,12 +1,14 @@
 import React from "react";
-import './Ateliers.css'
+import "./Ateliers.css";
 import Container from "react-bootstrap/Container";
 import Navbars from "../../composants/Navbars/Navbars";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
 import CardAteliers from "../../composants/Cards/CardAteliers";
-import Accordion from 'react-bootstrap/Accordion';
+import Accordion from "react-bootstrap/Accordion";
 import Footer from "../../composants/Footer/Footer";
 import MyPagination from "../../composants/Pagination";
 
@@ -21,8 +23,8 @@ export default function Ateliers() {
           Nos Ateliers de <span> Couture</span>
         </p>
         <Row className="">
-          <Col className=" bg-col border   col-style " sm={3}>
-            <div className="cont-col">
+          <Col className="bg-co cont-col col-row-taill " sm={3}>
+            <div className="cont-co">
               <div className="souss ">Filtre</div>
               <h5 className="p-2 m-2 filtre">filtre par</h5>
               <div className="cont-sec ">
@@ -271,15 +273,14 @@ export default function Ateliers() {
               </div>
             </div>
           </Col>
-          <Col  sm={9}>
-            <Accordion   className="mt-4 Accordon" defaultActiveKey="0">
-              <Accordion.Item eventKey="0">
-                <Accordion.Header></Accordion.Header>
-                <Accordion.Body>
-                 d
-                </Accordion.Body>
-              </Accordion.Item>
-            </Accordion>
+          <Col sm={9}>
+            <div className="center-end ">
+            <DropdownButton id="dropdown-basic-button" title="Trier par Les plus pertinents">
+              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+            </DropdownButton>
+            </div>
             <div className="col-cont-card ">
               <Container className=" d-flex  dwrap ">
                 <CardAteliers />
@@ -306,10 +307,9 @@ export default function Ateliers() {
                 <CardAteliers />
                 <CardAteliers />
                 <CardAteliers />
-       <div className="center">
-
-                <MyPagination/>
-       </div>
+                <div className="center">
+                  <MyPagination />
+                </div>
                 {/* { data.map((item, index) => (
               <Carde
                 key={index}

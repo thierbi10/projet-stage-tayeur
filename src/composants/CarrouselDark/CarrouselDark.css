@@ -12,9 +12,10 @@
 
 
 .cont-im-background{
-    width: 1921px;
-    height: 700px;
-    flex-shrink: 0;
+
+    width: 100%x;
+    height: auto;
+
 }
 
 .bask-im {
@@ -24,6 +25,7 @@
      background-image: url("../../asset/Dark.png") !important; 
     z-index: 10 !important;
     background-size: cover; 
+    object-fit: cover;
     background-repeat: no-repeat; 
 
 }

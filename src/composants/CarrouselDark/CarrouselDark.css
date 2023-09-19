@@ -12,10 +12,12 @@
 
 
 .cont-im-background{
-
     width: 100%x;
-    height: auto;
-
+    height:70rem;
+}
+.cont-row{
+    padding: 10%;
+    margin-top: 10%;
 }
 
 .bask-im {
@@ -32,14 +34,12 @@
 .cont-text-car-glab  {
     display: flex;
     flex-direction: column;
-   
     align-items: center;
-    margin-top: 10%;
+     margin-top: 4%;
 }
 
 .rec{
     margin-top: 28%;
-    
 height: 343.2px;
 flex-shrink: 0;
 border-color: #4c67b3 35px solid;

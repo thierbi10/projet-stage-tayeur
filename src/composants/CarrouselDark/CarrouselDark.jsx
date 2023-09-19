@@ -8,8 +8,8 @@ export default class CardSlider extends Component {
       <div className="container-fluid p-0">
         <div className="row ">
           <div className="cont-im-background d-flex align-items-center ">
-            <div className=" bask-im col- l justify-content-center  mt-4 ">
-              <div className="row   p-4">
+            <div className=" bask-im col- justify-content-center  mt-4 ">
+              <div className="row border cont-row ">
                 <div className="col-lg-4 col-md-6 col-sm-12  ">
                   <div className="global-cont  rec p-4">
                     <div className="cont-text-car-glab   ">
@@ -73,7 +73,7 @@ export default class CardSlider extends Component {
                         </p>
                       </div>
                       <div className="cont-img-temaoin m-0">
-                        <img src={quote} alt="" />
+                        <img src={quote} width='100%' alt="" />
                       </div>
                       <div className="div-touts center">
                         <p className="center1 m-0">JONE SMITH </p>

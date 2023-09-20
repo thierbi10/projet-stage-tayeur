@@ -1,0 +1,14 @@
+.btn-filtre{
+    display: inline-flex;
+padding: 3.497px 7.926px 3.497px 8.17px;
+align-items: flex-start;
+border-radius: 186.487px;
+background: #E72D32;
+color: #FFFFFF;
+border: none;
+}
+.cont-cate{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}

@@ -16,8 +16,8 @@
     height:70rem;
 }
 .cont-row{
-    padding: 10%;
-    margin-top: 10%;
+   
+    margin-top: 15%;
 }
 
 .bask-im {
@@ -35,18 +35,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-     margin-top: 4%;
+     margin-top: 15%;
+     
+    
 }
 
 .rec{
     margin-top: 28%;
-height: 343.2px;
+    width: 30rem;
+height: 25rem;
 flex-shrink: 0;
-border-color: #4c67b3 35px solid;
     border-radius: 34.936px;
-background: url('../../asset/Rectangle.png'), lightgray 0% 0% / 69.8710024356842px 69.8710024356842px repeat;
+    border: solid 15px  rgba(85, 87, 93, 0.081);
+
+   backdrop-filter: blur(11px);
 background-blend-mode: multiply;
-background-color: rgba(128, 128, 128, 0.493) ;
+background-color: rgba(50, 51, 58, 0.579);
 }
 .text-ipsum{
     color: #FFF;

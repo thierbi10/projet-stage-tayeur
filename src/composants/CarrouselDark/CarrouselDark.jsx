@@ -9,7 +9,7 @@ export default class CardSlider extends Component {
         <div className="row ">
           <div className="cont-im-background d-flex align-items-center ">
             <div className=" bask-im col- justify-content-center  mt-4 ">
-              <div className="row border cont-row ">
+              <div className="row  mx-3 cont-row ">
                 <div className="col-lg-4 col-md-6 col-sm-12  ">
                   <div className="global-cont  rec p-4">
                     <div className="cont-text-car-glab   ">

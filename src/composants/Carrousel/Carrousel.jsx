@@ -16,16 +16,16 @@ export default function () {
           <Carousel.Caption className="text-para">
             <h1>Découvrez votre prochaine session de créativité.</h1>
             <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR </p>
-            <div className="gem d-flex justify-content-center my-4">
+            <div className="gem d-flex justify-content-center">
             <div className="input  w-50 ">
-              <Form.Select aria-label="Default select example">
-                <option>Categorie</option>
+              <Form.Select className="btn-select" aria-label="Default CL select example">
+                <option>Open this select menu</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
                 
               </Form.Select>
-              <div className="container-btn"> <Button className="btn2">RECHERCHE</Button></div>
+              <div className="container-btn"> <button className="btn2">RECHERCHE</button></div>
             </div>
             </div>
           </Carousel.Caption>
@@ -39,14 +39,14 @@ export default function () {
             <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR </p>
             <div className="gem d-flex justify-content-center">
             <div className="input  w-50 ">
-              <Form.Select aria-label="Default select example">
+              <Form.Select className="btn-select" aria-label="Default CL select example">
                 <option>Open this select menu</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
                 
               </Form.Select>
-              <div className="container-btn"> <Button className="btn2">RECHERCHE</Button></div>
+              <div className="container-btn"> <button className="btn2">RECHERCHE</button></div>
             </div>
             </div>
           </Carousel.Caption>

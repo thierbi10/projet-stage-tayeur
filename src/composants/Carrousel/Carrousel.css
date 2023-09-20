@@ -1,7 +1,7 @@
 
 .container-im{
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-image: url('../../asset/imcarrousel.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,7 +22,16 @@
     align-items: center;
     width: 2rem;
 }
-
+.btn-select{
+    display: flex;
+width: 466.667px;
+height: 64px;
+padding: 16px 21.333px;
+justify-content: center;
+align-items: center;
+gap: 299px;
+flex-shrink: 0;
+}
 
 
 .form-select {
@@ -31,4 +40,15 @@ outline: none ;
 }
 .btn2{
     border-radius: 0 !important;
+    display: inline-flex;
+height: 64px;
+padding: 20px 70.98px 20px 70.58px;
+justify-content: center;
+align-items: center;
+border-radius: 0px 4.267px 4.267px 0px;
+background: #ED0006;
+color:#FFFFFF;
+flex-shrink: 0;
+outline: none;
+border: none;
 }

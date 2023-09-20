@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-
+import CarrouselDark from '../../composants/CarrouselDark/CarrouselDark'
 import CardAteliers from "../../composants/Cards/CardAteliers";
 import Accordion from "react-bootstrap/Accordion";
 import Footer from "../../composants/Footer/Footer";
@@ -310,6 +310,7 @@ export default function Ateliers() {
                 <div className="center">
                   <MyPagination />
                 </div>
+
                 {/* { data.map((item, index) => (
               <Carde
                 key={index}
@@ -323,6 +324,7 @@ export default function Ateliers() {
           </Col>
         </Row>
       </Container>
+      <CarrouselDark/>
       <Footer />
     </div>
   );

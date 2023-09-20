@@ -14,7 +14,7 @@ import Footer from "../../composants/Footer/Footer";
 export default function Couture({ img, titre, nbr }) {
   return (
     <div className=" bg">
-      <Container>
+      <Container className="mb-4">
         <h3 className="mt-4 touts">tous les items</h3>
         <p className="atelier">
           Nos Ateliers de <span> Couture</span>
@@ -296,8 +296,8 @@ export default function Couture({ img, titre, nbr }) {
             </div>
           </Col>
         </Row>
-      </Container>
-      <CarrouselDark />
+      </Container  >
+      
 
       <Footer />
     </div>

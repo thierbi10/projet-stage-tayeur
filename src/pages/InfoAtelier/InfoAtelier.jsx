@@ -33,6 +33,8 @@ import ButtonCrusto from "../../composants/ButtonCrusto";
 import CrustomCard from "../../composants/CrustomCard";
 import MyPagination from "../../composants/Pagination";
 import CarrouselDark from "../../composants/CarrouselDark/CarrouselDark";
+import CartMap from "../../composants/Map/CartMap";
+import Categorie from "../../composants/Categorie/Categorie";
 export default function InfoAtelier() {
   return (
     <div className="container-info-atelier ">
@@ -65,8 +67,11 @@ export default function InfoAtelier() {
               </div>
             </div>
             <div className="group-btn-2">
-              <Button>RENDEZ-VOUS</Button>
-              <Button className="btn1 ">PASSER UN COMMANDES</Button>
+           
+          <div className="d-flex">
+            <button className="bnt-cristo" >DEVENIR PARTENAIRE</button>
+            <button className="btn1 ">S’IDENTIFIER</button>
+          </div >
             </div>
           </div>
         </div>
@@ -154,12 +159,8 @@ export default function InfoAtelier() {
                     <span className="elem02">Envoyer un message</span>
                   </div>
                 </CrustomCard>
-                <CrustomCard titre="MAP">
-                  <div className="cont-img-map">
-                    <img src={imgmap} width="100%" height="500px" alt="" />
-                  </div>
-                  <div className="con-boutique"></div>
-                </CrustomCard>
+                <Categorie/>
+                <CartMap/>
                 <CrustomCard titre="EMPLOI DU TEMPS">
                   <div className="cont-emploi-d-temp ">
                     <div className="cont-jour d-flex  align-items-center justify-content-between">

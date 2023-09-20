@@ -1,0 +1,10 @@
+.P69{
+    
+    color: var(--ink-darkest, #090A0A);
+/* font-family: Montserrat; */
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+

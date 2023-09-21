@@ -11,10 +11,10 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 export default function Navbars() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary bg-nav fixed-top">
-      <Container fluid-fluid>
+   
         <div className="div-gene"></div>
-        <Navbar.Brand className="navigae" href="#">
           <img className="logo" src={logo} alt="" srcset="" />
+        <Navbar.Brand className="navigae" href="#">
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -51,7 +51,7 @@ export default function Navbars() {
             <button className="btn1 ">S’IDENTIFIER</button>
           </Form>
         </Navbar.Collapse>
-      </Container>
+   
     </Navbar>
   );
 }

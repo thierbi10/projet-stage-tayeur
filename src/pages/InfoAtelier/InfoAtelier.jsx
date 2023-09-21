@@ -216,7 +216,7 @@ export default function InfoAtelier() {
               </div>
             </Col>
 
-            <Col className="  " sm={8}>
+            <Col className="  " sm={9}>
               <div className="col-cont-card mt-4 ">
                 <Container className=" d-flex  dwrap ">
                   <div className="card-text">

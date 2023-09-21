@@ -19,7 +19,7 @@ export default function Couture({ img, titre, nbr }) {
         <p className="atelier">
           Nos Ateliers de <span> Couture</span>
         </p>
-        <Row className="">
+        <Row className=" border">
           <Col className=" bg-col cont-col col-row-taille" sm={3}>
             <div className="d">
               <div className="souss ">Filtre</div>
@@ -270,7 +270,7 @@ export default function Couture({ img, titre, nbr }) {
               </div>
             </div>
           </Col>
-          <Col className=" p-0 m-0 " sm={8}>
+          <Col className=" p-0 m-0 " sm={9}>
             <div className="center-end ">
               <DropdownButton
                 id="dropdown-basic-button"
@@ -281,7 +281,7 @@ export default function Couture({ img, titre, nbr }) {
                 <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
               </DropdownButton>
             </div>
-            <div className="  ">
+            <div className=" Row ">
               <div className="  grille">
                 {data.map((item, index) => (
                   <Carde

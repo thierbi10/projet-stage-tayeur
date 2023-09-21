@@ -79,13 +79,36 @@ text-align: left;
     height: auto;
     margin: 0px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill,270px);
+    grid-template-columns: repeat(auto-fill,300px);
     grid-gap: 10px;
 
 }
 .conttainer-items-grid{
-  width: 270px;
+  width: 300px;
   height: 312px;
   background-color: #333;
 
+}
+@media only screen and (max-width: 700px) {
+    .grille{
+        border: 1px  solid red;
+        max-width: 1633px;
+        width:95% ;
+        height: auto;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,300px);
+        grid-gap: 10px;
+    
+    }
+    .conttainer-items-grid{
+      width: 300px;
+      height: 312px;
+      background-color: #333;
+    
+    }
+    .center-end{
+        margin-top: 2rem;
+ 
+    }
 }

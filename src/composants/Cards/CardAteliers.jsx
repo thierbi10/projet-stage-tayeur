@@ -13,7 +13,7 @@ export default function CardAteliers() {
       <div className="img-group">
         <Link to ='/produit/info-produit'>
       <div className="container-ims">
-        <img   src={femme}  alt="" />
+        <img  height='8rem'  src={femme}  alt="" />
       </div>
        <div className="cont-logo-hc">
         <img src={logohc} alt="" />

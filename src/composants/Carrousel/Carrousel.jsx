@@ -46,8 +46,9 @@ export default function () {
                 <option value="3">Three</option>
                 
               </Form.Select>
+              </div>
               <div className="container-btn"> <button className="btn2">RECHERCHE</button></div>
-            </div>
+            
             </div>
           </Carousel.Caption>
         </Carousel.Item>

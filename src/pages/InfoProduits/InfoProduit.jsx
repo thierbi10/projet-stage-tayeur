@@ -17,7 +17,7 @@ import { MdEmail } from "react-icons/md";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { FiGlobe } from "react-icons/fi";
 
-
+import CarrouselDark from "../../composants/CarrouselDark/CarrouselDark"
 import { TfiHeart } from "react-icons/tfi";
 import { HiOutlineShare } from "react-icons/hi2";
 import { AiOutlineMessage } from "react-icons/ai";
@@ -159,11 +159,7 @@ export default function InfoProduit() {
                     <div className="cont-41 px-2 fontlab"> Hier 23:57</div>
                   </div>
                 </div>
-                {/* <div className="con-check d-flex justify-content-between cont-res-icon  ">
-                  <span className="icon-card01 center  "><AiOutlineWhatsApp className=" icon-card-1  " /> </span> 
-                  <span className="icon-card1  "> <BsTelephoneForward className=" icon-card-1" /></span>
-                  <span className="icon-card1  ">  <TiMessages className=" icon-card-1  rouge" /></span>
-                </div> */}
+            
                  <div className="elems-span  ">
                       <span className="elems-span1 color-whatsap ">
                       <AiOutlineWhatsApp  />
@@ -269,6 +265,7 @@ export default function InfoProduit() {
           </Col>
         </Row>
       </Container>
+      <CarrouselDark/>
       <Footer />
     </div>
   );

@@ -3,7 +3,7 @@ import "./InfoAteliers.css";
 import { AiFillStar } from "react-icons/ai";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { BiLogoWhatsapp } from "react-icons/bi";
-import { FcApproval} from "react-icons/fc";
+import { FcApproval } from "react-icons/fc";
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
@@ -67,11 +67,10 @@ export default function InfoAtelier() {
               </div>
             </div>
             <div className="group-btn-2">
-           
-          <div className="d-flex">
-            <button className="bnt-cristo" >DEVENIR PARTENAIRE</button>
-            <button className="btn1 ">S’IDENTIFIER</button>
-          </div >
+              <div className="d-flex">
+                <button className="bnt-cristo">DEVENIR PARTENAIRE</button>
+                <button className="btn1 ">S’IDENTIFIER</button>
+              </div>
             </div>
           </div>
         </div>
@@ -159,59 +158,100 @@ export default function InfoAtelier() {
                     <span className="elem02">Envoyer un message</span>
                   </div>
                 </CrustomCard>
-                <Categorie/>
-                <CartMap/>
+                <Categorie />
+                <CartMap />
                 <CrustomCard titre="EMPLOI DU TEMPS">
                   <div className="cont-emploi-d-temp ">
                     <div className="cont-jour d-flex  align-items-center justify-content-between">
                       <p className="lundi"> lundi</p>
-                      <p><span className="ouv">ouverture </span> <span className="hora">de 8 a 20h</span></p>
-                      <p> <FcApproval/> </p>
+                      <p>
+                        <span className="ouv">ouverture </span>{" "}
+                        <span className="hora">de 8 a 20h</span>
+                      </p>
+                      <p>
+                        {" "}
+                        <FcApproval />{" "}
+                      </p>
                     </div>
                   </div>
                   <div className="cont-emploi-d-temp ">
                     <div className="cont-jour d-flex  align-items-center justify-content-between">
                       <p className="lundi"> Mardi</p>
-                      <p><span className="ouv">ouverture </span> <span className="hora">de 8 a 20h</span></p>
-                      <p> <FcApproval/> </p>
+                      <p>
+                        <span className="ouv">ouverture </span>{" "}
+                        <span className="hora">de 8 a 20h</span>
+                      </p>
+                      <p>
+                        {" "}
+                        <FcApproval />{" "}
+                      </p>
                     </div>
                   </div>
                   <div className="cont-emploi-d-temp ">
                     <div className="cont-jour d-flex  align-items-center justify-content-between">
                       <p className="lundi"> Mercredi</p>
-                      <p><span className="ouv">ouverture </span> <span className="hora">de 8 a 20h</span></p>
-                      <p> <FcApproval/> </p>
+                      <p>
+                        <span className="ouv">ouverture </span>{" "}
+                        <span className="hora">de 8 a 20h</span>
+                      </p>
+                      <p>
+                        {" "}
+                        <FcApproval />{" "}
+                      </p>
                     </div>
                   </div>
                   <div className="cont-emploi-d-temp ">
                     <div className="cont-jour d-flex  align-items-center justify-content-between">
                       <p className="lundi"> Jeudi</p>
-                      <p><span className="ouv">ouverture </span> <span className="hora">de 8 a 20h</span></p>
-                      <p> <FcApproval/> </p>
+                      <p>
+                        <span className="ouv">ouverture </span>{" "}
+                        <span className="hora">de 8 a 20h</span>
+                      </p>
+                      <p>
+                        {" "}
+                        <FcApproval />{" "}
+                      </p>
                     </div>
                   </div>
                   <div className="cont-emploi-d-temp ">
                     <div className="cont-jour d-flex  align-items-center justify-content-between">
                       <p className="lundi"> Vendredi</p>
-                      <p><span className="ouv">ouverture </span> <span className="hora">de 8 a 20h</span></p>
-                      <p> <FcApproval/> </p>
+                      <p>
+                        <span className="ouv">ouverture </span>{" "}
+                        <span className="hora">de 8 a 20h</span>
+                      </p>
+                      <p>
+                        {" "}
+                        <FcApproval />{" "}
+                      </p>
                     </div>
                   </div>
                   <div className="cont-emploi-d-temp ">
                     <div className="cont-jour d-flex  align-items-center justify-content-between">
                       <p className="lundi"> Samedi</p>
-                      <p><span className="ouv">ouverture </span> <span className="hora">de 8 a 20h</span></p>
-                      <p> <FcApproval/> </p>
+                      <p>
+                        <span className="ouv">ouverture </span>{" "}
+                        <span className="hora">de 8 a 20h</span>
+                      </p>
+                      <p>
+                        {" "}
+                        <FcApproval />{" "}
+                      </p>
                     </div>
                   </div>
                   <div className="cont-emploi-d-temp ">
                     <div className="cont-jour d-flex  align-items-center justify-content-between">
                       <p className="lundi"> Dimenche</p>
-                      <p><span className="fer"> fermer </span> <span className="hora">de 8 a 20h</span></p>
-                      <p> <AiFillCloseCircle className="close" /> </p>
+                      <p>
+                        <span className="fer"> fermer </span>{" "}
+                        <span className="hora">de 8 a 20h</span>
+                      </p>
+                      <p>
+                        {" "}
+                        <AiFillCloseCircle className="close" />{" "}
+                      </p>
                     </div>
                   </div>
-                  
                 </CrustomCard>
               </div>
             </Col>
@@ -244,13 +284,13 @@ export default function InfoAtelier() {
                       </div>
                     </div>
                   </div>
-                  <div className="card-2-container mt-4">
+                  <div className=" boy-card card-2-container m-4 ">
                     <h2>Galerie | Nos réalisations </h2>
-                    <div className="cont-homme-img d-flex justify-content-center align-itmes-center mt-4">
-                      <img src={homme} alt="" />
+                    <div className="">
+                      <img width="100%" src={homme} alt="" />
                     </div>
 
-                    <div className="cont-trois-im mt-4 d-flex justify-content-center align-itmes-center">
+                    <div className=" container-image-3">
                       <div className="im m-2">
                         <img src={img2} alt="" />
                       </div>
@@ -328,12 +368,12 @@ export default function InfoAtelier() {
                         </div>
                         <p className="text-comt">I like</p>
                       </div>
-                      <div className="cont-input">
-                        <input
+                      <div className="boy-card">
+                        {/* <input
                           className="input1"
                           type="text"
                           placeholder="Écrivez un commentaire"
-                        />
+                        /> */}
                       </div>
                     </div>
                   </div>
@@ -408,41 +448,7 @@ export default function InfoAtelier() {
             </Col>
           </Row>
         </Container>
-         <CarrouselDark/> 
-                {/* <CarrouselDark/> */}
-        {/* <section className="temoignage">
-        <div className="absolu-con">
-            <div className="cont-cards">
-              <div className="cont-card-1">
-                <img src={imgTemoin} alt="imge" />
-              </div>
-              <div className="cont-boy">
-                <span> icon</span>
-                <div className="pparatext">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ipsam aperiam nemo pariatur! Quasi illo natus eligendi
-                    perferendis, nisi, quas optio ullam suscipit quos numquam
-                    animi rerum tenetur totam sit tempore aut? Error fuga
-                    suscipit illo sit molestias aliquid officiis repellat.
-                  </p>
-                  <div className="general-elems">
-                    <div className="cont-im-temoignage">
-                      <img src="" alt="" />
-                    </div>
-                    <h5>JONE SMITH</h5>
-                    <p>Founder of Awesomeux Technology</p>
-                  </div>
-                  </div>
-                  </div>
-              </div>
-            </div>
-          <div className="sect-im-cont ">
-            <img className="im" src={imgdark}  alt="ddd"  />
-         
-     
-          </div>
-        </section> */}
+        <CarrouselDark />
       </div>
       <Footer />
     </div>

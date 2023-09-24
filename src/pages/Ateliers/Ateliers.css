@@ -71,3 +71,7 @@ button {
 *, ::after, ::before {
     box-sizing: border-box;
 }
+
+/* .page-ateliers{
+    margin-top: 0.5rem;
+} */

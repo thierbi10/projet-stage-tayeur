@@ -10,7 +10,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 export default function Navbars() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary bg-nav fixed-top">
+    <Navbar expand="lg" className="bg-body-tertiary bg-nav px-4 fixed-top">
    
         <div className="div-gene"></div>
           <img className="logo" src={logo} alt="" srcset="" />

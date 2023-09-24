@@ -8,13 +8,13 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 export default function () {
   return (
-    <div>
+    <div >
       <Carousel className="bg-car ">
         <Carousel.Item>
           <img src={carouselImage} className="imcar" alt="" srcset="" />
 
           <Carousel.Caption className="text-para">
-            <h1>Découvrez votre prochaine session de créativité.</h1>
+          <h1>Découvrez votre prochaine session de créativité.</h1>
             <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR </p>
             <div className="gem d-flex justify-content-center">
             <div className="input  w-50 ">
@@ -25,8 +25,9 @@ export default function () {
                 <option value="3">Three</option>
                 
               </Form.Select>
+              </div>
               <div className="container-btn"> <button className="btn2">RECHERCHE</button></div>
-            </div>
+            
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -56,9 +57,7 @@ export default function () {
       <div className="img-fond">
         <img src={imgfont} alt="" />
       </div>
-      {/* <div className="sec-recherche">
-        <img src={banier} alt="" />
-        </div> */}
+ 
 
     </div>
   );

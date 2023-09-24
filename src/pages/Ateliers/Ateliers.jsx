@@ -11,12 +11,11 @@ import CardAteliers from "../../composants/Cards/CardAteliers";
 import Accordion from "react-bootstrap/Accordion";
 import Footer from "../../composants/Footer/Footer";
 import MyPagination from "../../composants/Pagination";
+import datacouture from "../../data/datacouture";
 
-export default function Ateliers() {
+export default function Ateliers({img ,titre}) {
   return (
     <div className="page-ateliers">
-      <Navbars />
-
       <Container c>
         <h3 className=" touts">tous les items</h3>
         <p className="atelier">
@@ -283,30 +282,22 @@ export default function Ateliers() {
             </div>
             <div className="col-cont-card ">
               <Container className=" d-flex  dwrap ">
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
-                <CardAteliers />
+
+                {
+                  datacouture.map((item,index)=>(
+                    <CardAteliers
+                    
+                    lassName="conttainer-items-grid"
+                    key={index}
+                    img={item.img}
+                    titre={item.titre}
+                    
+                    />
+
+
+                  ))
+                }
+                
                 <div className="center">
                   <MyPagination />
                 </div>

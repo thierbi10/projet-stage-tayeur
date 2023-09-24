@@ -36,6 +36,7 @@ margin-top: -110px;
 }
 .relative-img{
     position: relative;
+    object-fit: cover;
 }
 .iim-cont {
     
@@ -46,18 +47,19 @@ margin-top: -110px;
 }
 .cont-logo-point6 img{
     width: 15rem;
+    object-fit: cover;
 }
 .font-point6{
     color: #333;
 /* font-family: Montserrat; */
-font-size: 47.253px;
+font-size: 37.253px;
 font-style: normal;
-font-weight: 400;
-line-height: 56.704px; /* 120% */
+font-weight: 600;
+line-height: 36.704px; /* 120% */
 text-transform: capitalize;
 }
 .card-text{
-     display: flex;
+    display: flex;
 width: 100%;
 padding: 34.966px 34.966px 53.615px 34.966px;
 flex-direction: column;
@@ -78,7 +80,6 @@ box-shadow: 0px 0.87416px 6.99325px 0px rgba(0, 0, 0, 0.10);
 }
 .card-2-container{
     width: 8.5055 rem;
-height: 1407.392px;
 border-radius: 23.311px;
 background: #FFF;
 padding: 32px;
@@ -120,6 +121,12 @@ background: #F5F5F5;
 }
 .boy-card{
     width: 100%;
+}
+
+.container-image-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .text-icon-avis{
     color: #232D3B;
@@ -568,4 +575,96 @@ line-height: 100%; /* 18.65px */
 }
 .close{
     color: #E72D32;
+}
+
+/****************************************************/
+
+
+@media only screen and (max-width: 700px) {
+   
+.content-element-info{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+
+}
+.cont-trois-im{
+  
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+}
+
+.container-im-infAteteliers {
+    background-color: #ffff;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 2rem;
+  
+}
+.image-logo-atelier{
+
+width: 55%;
+ display: flex;
+ justify-content: center;
+
+
+}
+
+.image-logo-atelier img{
+    object-fit: cover;
+    width: 100%;
+}
+.cont-logo-point6{
+    border-radius: 334.667px;
+    width: 134.667px;
+height: 134.667px;
+display: flex;
+justify-content: center;
+flex-shrink: 0;
+background-color: #FFF;
+box-shadow: 0px 2.66667px 25.33333px 0px rgba(0, 0, 0, 0.15);
+/* position: absolute; */
+margin-top: -80px;
+}
+.relative-img{
+    position: relative;
+}
+.iim-cont {
+    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cont-logo-point6 img{
+    width: 8rem;
+}
+.font-point6{
+    color: #333;
+/* font-family: Montserrat; */
+font-size: 27.253px;
+font-style: normal;
+font-weight: 400;
+line-height: 0;
+text-transform: capitalize;
+}
+.font-text-comment{
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.container-image-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }

@@ -7,13 +7,13 @@ import "./Card.css";
 import {TfiHeart}  from  'react-icons/tfi'
 import {HiOutlineShare} from 'react-icons/hi2'
 import {AiOutlineMessage} from 'react-icons/ai'
-export default function CardAteliers() {
+export default function CardAteliers({img, titre}) {
   return (
     <div className="mycard">
       <div className="img-group">
         <Link to ='/produit/info-produit'>
       <div className="container-ims">
-        <img  height='8rem'  src={femme}  alt="" />
+        <img  height='8rem'  src={img}  alt="" />
       </div>
        <div className="cont-logo-hc">
         <img src={logohc} alt="" />
@@ -25,7 +25,7 @@ export default function CardAteliers() {
        <div>
         <div  container-atelier-text>
           <div className="con-check d-flex justify-content-between  align-items-center taille ">
-            <div className="taille-basse cont-41 taille-bass-font ">taille bass</div>
+            <div className="taille-basse cont-41 taille-bass-font ">{titre}</div>
             <div className="cont-41 fontlab"> Hier 23:57</div>
           </div>
           <div className="con-check d-flex justify-content-between cont-res-icon  ">

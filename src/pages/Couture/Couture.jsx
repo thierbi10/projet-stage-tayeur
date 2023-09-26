@@ -278,7 +278,7 @@ export default function Couture({ img, titre, nbr }) {
                 id="dropdown-basic-button"
                 title="Trier par Les plus pertinents"
               >
-                <Dropdown.Item href="#/action-1">Trier par les plus pertinents</Dropdown.Item>
+                <Dropdown.Item href="#/action-1">Trier par les plus pertinents         </Dropdown.Item>
                 <Dropdown.Item href="#/action-2">Trier par les plus aimés</Dropdown.Item>
                 <Dropdown.Item href="#/action-3">Trier par les plus achetés</Dropdown.Item>
               </DropdownButton>

@@ -4,16 +4,16 @@ import Container from "react-bootstrap/Container";
 import Navbars from "../../composants/Navbars/Navbars";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-import CarrouselDark from '../../composants/CarrouselDark/CarrouselDark'
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
+import CarrouselDark from "../../composants/CarrouselDark/CarrouselDark";
 import CardAteliers from "../../composants/Cards/CardAteliers";
 import Accordion from "react-bootstrap/Accordion";
 import Footer from "../../composants/Footer/Footer";
 import MyPagination from "../../composants/Pagination";
 import datacouture from "../../data/datacouture";
 
-export default function Ateliers({img ,titre}) {
+export default function Ateliers({ img, titre }) {
   return (
     <div className="page-ateliers">
       <Container c>
@@ -274,48 +274,54 @@ export default function Ateliers({img ,titre}) {
           </Col>
           <Col sm={9}>
             <div className="center-end ">
-            <DropdownButton id="dropdown-basic-button" title="Trier par Les plus pertinents">
-              <Dropdown.Item href="#/action-1">Robe taille basse</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">Robe taille Mame</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Robe taille haute</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Taille basse</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Grand boubou femme</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Grand boubou homme</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">costume Africain</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Fil à fil </Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Baay Lahat</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Thiaya</Dropdown.Item>
-            </DropdownButton>
+              <DropdownButton
+                id="dropdown-basic-button"
+                title="Trier par Les plus pertinents"
+              >
+                <Dropdown.Item href="#/action-1">
+                  Robe taille basse
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-2">
+                  Robe taille Mame
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3">
+                  Robe taille haute
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Taille basse</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">
+                  Grand boubou femme
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3">
+                  Grand boubou homme
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3">
+                  costume Africain
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Fil à fil </Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Baay Lahat</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Thiaya</Dropdown.Item>
+              </DropdownButton>
             </div>
             <div className="col-cont-card ">
               <Container className=" d-flex  dwrap ">
-
-                {
-                  datacouture.map((item,index)=>(
-                    <CardAteliers
-                    
+                {datacouture.map((item, index) => (
+                  <CardAteliers
                     lassName="conttainer-items-grid"
                     key={index}
                     img={item.img}
                     titre={item.titre}
-                    
-                    />
+                  />
+                ))}
 
-
-                  ))
-                }
-                
                 <div className="center">
                   <MyPagination />
                 </div>
-
-                
               </Container>
             </div>
           </Col>
         </Row>
       </Container>
-      <CarrouselDark/>
+      <CarrouselDark />
       <Footer />
     </div>
   );

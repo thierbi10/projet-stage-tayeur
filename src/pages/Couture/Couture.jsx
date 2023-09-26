@@ -298,11 +298,12 @@ export default function Couture({ img, titre, nbr }) {
             </div>
           </Col>
         </Row>
-      </Container  >
-      <div className="center">
+        <div className="center">
                   <MyPagination />
                 </div>
-      <Footer />
+      </Container  >
+          
+        <Footer />
     </div>
   );
 }

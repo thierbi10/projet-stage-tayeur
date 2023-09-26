@@ -9,11 +9,11 @@ import { Link } from "react-router-dom";
 export default function Carde({ img, titre, nbr }) {
   return (
     <>
-      <section className="card  ">
+      <section className="card   ">
         
             <Link to="/couture/ateliers-info">
-              <div className='card-img -' >
-                <img src={img} width='90%' alt="titre" className="" />
+              <div className='card-img ' >
+                <img src={img} width='100%'  alt="titre" className="" />
               </div>
             </Link>     <div className="  cont-card-text ">
               <h3 className="card-title font2 mt"> {titre}</h3>

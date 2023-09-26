@@ -17,27 +17,27 @@ const data = [
   },
   {
     img: hc,
-    title: "  iss couture ",
+    titre: "  iss couture ",
     nbr: 12,
   },
   {
     img: heritage,
-    title: "  heritage couture",
+    titre: "  heritage couture",
     nbr: 12,
   },
   {
     img: heritage,
-    title: " heritage couture",
+    titre: " heritage couture",
     nbr: 12,
   },
   {
     img: isscouture,
-    title: " taylor couture",
+    titre: " taylor couture",
     nbr: 12,
   },
   {
     img: bambacouture,
-    title: " 6 piont 9 ",
+    titre: " 6 piont 9 ",
     nbr: 12,
   },
   {
@@ -52,91 +52,27 @@ const data = [
   },
   {
     img: hc,
-    title: "  iss couture ",
+    titre: "  iss couture ",
     nbr: 12,
   },
   {
     img: heritage,
-    title: "  heritage couture",
+    titre: "  heritage couture",
     nbr: 12,
   },
   {
     img: heritage,
-    title: " heritage couture",
+    titre: " heritage couture",
     nbr: 12,
   },
   {
     img: isscouture,
-    title: " taylor couture",
-    nbr: 12,
-  },
-  {
-    img: point9,
-    title: " 6 piont 9 ",
-    nbr: 12,
-  },
-  {
-    img: bambacouture,
-    titre: " bamba couture",
-    nbr: 12,
-  }, {
-    img: point9,
-    titre: " 6 piont 9 ",
-    nbr: 12,
-  },
-  {
-    img: hc,
-    title: "  iss couture ",
-    nbr: 12,
-  },
-  {
-    img: heritage,
-    title: "  heritage couture",
-    nbr: 12,
-  },
-  {
-    img: heritage,
-    title: " heritage couture",
-    nbr: 12,
-  },
-  {
-    img: isscouture,
-    title: " taylor couture",
-    nbr: 12,
-  },
-  {
-    img: bambacouture,
-    titre: " bamba couture",
+    titre: " taylor couture",
     nbr: 12,
   },
   {
     img: point9,
     titre: " 6 piont 9 ",
-    nbr: 12,
-  },
-  {
-    img: hc,
-    title: "  iss couture ",
-    nbr: 12,
-  },
-  {
-    img: heritage,
-    title: "  heritage couture",
-    nbr: 12,
-  },
-  {
-    img: heritage,
-    title: " heritage couture",
-    nbr: 12,
-  },
-  {
-    img: isscouture,
-    title: " taylor couture",
-    nbr: 12,
-  },
-  {
-    img: point9,
-    title: " 6 piont 9 ",
     nbr: 12,
   },
   {
@@ -150,38 +86,102 @@ const data = [
   },
   {
     img: hc,
-    title: "  iss couture ",
+    titre: "  iss couture ",
     nbr: 12,
   },
   {
     img: heritage,
-    title: "  heritage couture",
+    titre: "  heritage couture",
     nbr: 12,
   },
   {
     img: heritage,
-    title: " heritage couture",
+    titre: " heritage couture",
+    nbr: 12,
+  },
+  {
+    img: isscouture,
+    titre: " taylor couture",
+    nbr: 12,
+  },
+  {
+    img: bambacouture,
+    titre: " bamba couture",
+    nbr: 12,
+  },
+  {
+    img: point9,
+    titre: " 6 piont 9 ",
+    nbr: 12,
+  },
+  {
+    img: hc,
+    titre: "  iss couture ",
+    nbr: 12,
+  },
+  {
+    img: heritage,
+    titre: "  heritage couture",
+    nbr: 12,
+  },
+  {
+    img: heritage,
+    titre: " heritage couture",
+    nbr: 12,
+  },
+  {
+    img: isscouture,
+    titre: " taylor couture",
+    nbr: 12,
+  },
+  {
+    img: point9,
+    titre: " 6 piont 9 ",
+    nbr: 12,
+  },
+  {
+    img: bambacouture,
+    titre: " bamba couture",
+    nbr: 12,
+  }, {
+    img: point9,
+    titre: " 6 piont 9 ",
+    nbr: 12,
+  },
+  {
+    img: hc,
+    titre: "  iss couture ",
+    nbr: 12,
+  },
+  {
+    img: heritage,
+    titre: "  heritage couture",
+    nbr: 12,
+  },
+  {
+    img: heritage,
+    titre: " heritage couture",
     nbr: 12,
   },
   ,
   {
     img: heritage,
-    title: "  heritage couture",
+    titre: "  heritage couture",
     nbr: 12,
   },
   {
     img: heritage,
-    title: " heritage couture",
+    titre: " heritage couture",
     nbr: 12,
   },
   {
     img: isscouture,
-    title: " taylor couture",
+    titre: " taylor couture",
     nbr: 12,
   },
   {
     img: point9,
-    title: " 6 piont 9 ",
+    titre: " 6 piont 9 ",
     nbr: 12,
   },
   {

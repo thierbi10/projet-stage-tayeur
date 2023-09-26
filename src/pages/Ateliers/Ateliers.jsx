@@ -275,9 +275,16 @@ export default function Ateliers({img ,titre}) {
           <Col sm={9}>
             <div className="center-end ">
             <DropdownButton id="dropdown-basic-button" title="Trier par Les plus pertinents">
-              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+              <Dropdown.Item href="#/action-1">Robe taille basse</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Robe taille Mame</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Robe taille haute</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Taille basse</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Grand boubou femme</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Grand boubou homme</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">costume Africain</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Fil à fil </Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Baay Lahat</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Thiaya</Dropdown.Item>
             </DropdownButton>
             </div>
             <div className="col-cont-card ">
@@ -302,14 +309,7 @@ export default function Ateliers({img ,titre}) {
                   <MyPagination />
                 </div>
 
-                {/* { data.map((item, index) => (
-              <Carde
-                key={index}
-                img={item.img}
-                titre={item.titre}
-                nbr={item.nbr}
-              />
-            ))} */}
+                
               </Container>
             </div>
           </Col>

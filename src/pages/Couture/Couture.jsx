@@ -11,6 +11,8 @@ import Card from "react-bootstrap/Card";
 import Carde from "../../composants/Cards/Carde";
 import data from "../../data/dataCards";
 import Footer from "../../composants/Footer/Footer";
+import Pagination  from "../../composants/Pagination";
+import MyPagination from "../../composants/Pagination";
 export default function Couture({ img, titre, nbr }) {
   return (
     <div className=" bg">
@@ -19,7 +21,7 @@ export default function Couture({ img, titre, nbr }) {
         <p className="atelier">
           Nos Ateliers de <span> Couture</span>
         </p>
-        <Row className=" border">
+        <Row className=" bord">
           <Col className=" bg-col cont-col col-row-taille" sm={3}>
             <div className="d">
               <div className="souss ">Filtre</div>
@@ -276,9 +278,9 @@ export default function Couture({ img, titre, nbr }) {
                 id="dropdown-basic-button"
                 title="Trier par Les plus pertinents"
               >
-                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                <Dropdown.Item href="#/action-1">Trier par les plus pertinents</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">Trier par les plus aimés</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Trier par les plus achetés</Dropdown.Item>
               </DropdownButton>
             </div>
             <div className=" Row ">
@@ -297,8 +299,9 @@ export default function Couture({ img, titre, nbr }) {
           </Col>
         </Row>
       </Container  >
-      
-
+      <div className="center">
+                  <MyPagination />
+                </div>
       <Footer />
     </div>
   );

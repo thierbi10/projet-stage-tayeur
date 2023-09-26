@@ -79,6 +79,7 @@ border: none;
 .text-para h1{
     z-index: 1;
       
+
     font-size: 22px;
 }
 .text-para p{
@@ -87,10 +88,6 @@ border: none;
     font-size: 16px;
 }
 
-.bg-car {
-    max-height: 50vh !important;
-
-}
 
 }
 
